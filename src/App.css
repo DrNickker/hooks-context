@@ -1,3 +1,7 @@
+.card {
+  display: flex;
+}
+
 .list-item {
   display: flex;
   width: 20vw;

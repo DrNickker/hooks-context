@@ -41,7 +41,7 @@ export default function App() {
   }, [info.id, data]);
 
   return (
-    <div>
+    <div className="card">
       <List handleChoise={handleChoise}/>
       {isLoading && <p>Loading...</p>}
       {data.id !== null ? <Details data={data.id}/> : null }
